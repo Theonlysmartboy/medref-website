@@ -6,6 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title><?php echo $title ?></title>
+        <!-- fav icons-->
+        <link rel="apple-touch-icon" sizes="76x76" href="{{asset('images/icons/apple-touch-icon.png')}}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{asset('images/icons/favicon-32x32.png')}}">
+        <link rel="icon" type="image/png" sizes="16x16" href="/{{asset('images/icons/favicon-16x16.png')}}">
+        <link rel="manifest" href="{{asset('images/icons/site.webmanifest')}}">
+        <link rel="mask-icon" href="{{asset('images/icons/safari-pinned-tab.svg')}}" color="#5bbad5">
+        <link rel="shortcut icon" href="{{asset('images/icons/favicon.ico')}}">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="{{asset('images/icons/browserconfig.xml')}}">
+        <meta name="theme-color" content="#ffffff">
         <!-- Google font -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400%7CSource+Sans+Pro:700" rel="stylesheet">
         <!-- Bootstrap -->
