@@ -23,7 +23,7 @@
 				<div class="col-md-offset-1 col-md-6">
 					<a href="#" class="about-video">
 							<i class="play-icon fa fa-play"></i>
-							<img src="./img/about.jpg" alt="">
+							<img src="{{asset('images/front_end/about.jpg')}}" alt="">
 						</a>
 				</div>
 				<!-- /about video -->
@@ -107,7 +107,7 @@
 					<div class="causes">
 						<div class="causes-img">
 							<a href="single-cause.html">
-									<img src="./img/post-1.jpg" alt="">
+									<img src="{{asset('images/front_end/post-1.jpg')}}" alt="">
 								</a>
 						</div>
 						<div class="causes-progress">
@@ -135,7 +135,7 @@
 					<div class="causes">
 						<div class="causes-img">
 							<a href="single-cause.html">
-									<img src="./img/post-2.jpg" alt="">
+									<img src="{{asset('images/front_end/post-2.jpg')}}" alt="">
 								</a>
 						</div>
 						<div class="causes-progress">
@@ -163,7 +163,7 @@
 					<div class="causes">
 						<div class="causes-img">
 							<a href="single-cause.html">
-								<img src="./img/post-3.jpg" alt="">
+								<img src="{{asset('images/front_end/post-3.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="causes-progress">
@@ -193,7 +193,7 @@
 					<div class="causes">
 						<div class="causes-img">
 							<a href="single-cause.html">
-								<img src="./img/post-4.jpg" alt="">
+								<img src="{{asset('images/front_end/post-4.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="causes-progress">
@@ -221,7 +221,7 @@
 					<div class="causes">
 						<div class="causes-img">
 							<a href="single-cause.html">
-								<img src="./img/post-5.jpg" alt="">
+								<img src="{{asset('images/front_end/post-5.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="causes-progress">
@@ -249,7 +249,7 @@
 					<div class="causes">
 						<div class="causes-img">
 							<a href="single-cause.html">
-								<img src="./img/post-6.jpg" alt="">
+								<img src="{{asset('images/front_end/post-6.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="causes-progress">
@@ -281,7 +281,7 @@
 	<!-- CTA -->
 	<div id="cta" class="section">
 		<!-- background section -->
-		<div class="section-bg" style="background-image: url(./img/background-1.jpg);" data-stellar-background-ratio="0.5"></div>
+		<div class="section-bg" style="background-image: url({{asset('images/front_end/background-1.jpg')}});" data-stellar-background-ratio="0.5"></div>
 		<!-- /background section -->
 
 		<!-- container -->
@@ -324,7 +324,7 @@
 					<div class="event">
 						<div class="event-img">
 							<a href="single-event.html">
-								<img src="./img/event-1.jpg" alt="">
+								<img src="{{asset('images/front_end/event-1.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="event-content">
@@ -344,7 +344,7 @@
 					<div class="event">
 						<div class="event-img">
 							<a href="single-event.html">
-								<img src="./img/event-2.jpg" alt="">
+								<img src="{{asset('images/front_end/event-2.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="event-content">
@@ -366,7 +366,7 @@
 					<div class="event">
 						<div class="event-img">
 							<a href="single-event.html">
-								<img src="./img/event-3.jpg" alt="">
+								<img src="{{asset('images/front_end/event-3.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="event-content">
@@ -386,7 +386,7 @@
 					<div class="event">
 						<div class="event-img">
 							<a href="single-event.html">
-								<img src="./img/event-4.jpg" alt="">
+								<img src="{{asset('images/front_end/event-4.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="event-content">
@@ -410,7 +410,7 @@
 	<!-- TESTIMONIAL -->
 	<div id="testimonial" class="section">
 		<!-- background section -->
-		<div class="section-bg" style="background-image: url(./img/background-2.jpg);" data-stellar-background-ratio="0.5"></div>
+		<div class="section-bg" style="background-image: url({{asset('images/front_end/background-2.jpg')}});" data-stellar-background-ratio="0.5"></div>
 		<!-- /background section -->
 
 		<!-- container -->
@@ -424,7 +424,7 @@
 						<div class="testimonial">
 							<div class="testimonial-meta">
 								<div class="testimonial-img">
-									<img src="./img/avatar-1.jpg" alt="">
+									<img src="{{asset('images/front_end/avatar-1.jpg')}}" alt="">
 								</div>
 								<h3>John Doe</h3>
 								<span>Volunteer</span>
@@ -441,7 +441,7 @@
 						<div class="testimonial">
 							<div class="testimonial-meta">
 								<div class="testimonial-img">
-									<img src="./img/avatar-2.jpg" alt="">
+									<img src="{{asset('images/front_end/avatar-2.jpg')}}" alt="">
 								</div>
 								<h3>John Doe</h3>
 								<span>Volunteer</span>
@@ -458,7 +458,7 @@
 						<div class="testimonial">
 							<div class="testimonial-meta">
 								<div class="testimonial-img">
-									<img src="./img/avatar-1.jpg" alt="">
+									<img src="{{asset('images/front_end/avatar-1.jpg')}}" alt="">
 								</div>
 								<h3>John Doe</h3>
 								<span>Volunteer</span>
@@ -475,7 +475,7 @@
 						<div class="testimonial">
 							<div class="testimonial-meta">
 								<div class="testimonial-img">
-									<img src="./img/avatar-2.jpg" alt="">
+									<img src="{{asset('images/front_end/avatar-2.jpg')}}" alt="">
 								</div>
 								<h3>John Doe</h3>
 								<span>Volunteer</span>
@@ -517,7 +517,7 @@
 					<div class="article">
 						<div class="article-img">
 							<a href="single-blog.html">
-								<img src="./img/post-1.jpg" alt="">
+								<img src="{{asset('images/front_end/post-1.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="article-content">
@@ -538,7 +538,7 @@
 					<div class="article">
 						<div class="article-img">
 							<a href="single-blog.html">
-								<img src="./img/post-2.jpg" alt="">
+								<img src="{{asset('images/front_end/post-2.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="article-content">
@@ -559,7 +559,7 @@
 					<div class="article">
 						<div class="article-img">
 							<a href="single-blog.html">
-								<img src="./img/post-3.jpg" alt="">
+								<img src="{{asset('images/front_end/post-3.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="article-content">

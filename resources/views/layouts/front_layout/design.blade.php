@@ -9,14 +9,14 @@
         <!-- Google font -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400%7CSource+Sans+Pro:700" rel="stylesheet">
         <!-- Bootstrap -->
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="{{asset('css/front_end/bootstrap.min.css')}}" />
         <!-- Owl Carousel -->
-        <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
-        <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+        <link type="text/css" rel="stylesheet" href="{{asset('css/front_end/owl.carousel.css')}}" />
+        <link type="text/css" rel="stylesheet" href="{{asset('css/front_end/owl.theme.default.css')}}" />
         <!-- Font Awesome Icon -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{asset('css/front_end/font-awesome.min.css')}}">
         <!-- Custom stlylesheet -->
-        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link type="text/css" rel="stylesheet" href="{{asset('css/front_end/style.css')}}" />
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -29,11 +29,11 @@
         @yield('content')
         @include('layouts.front_layout.footer')
         <!-- jQuery Plugins -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="{{asset('js/front_end/jquery.min.js')}}"></script>
+        <script src="{{asset('js/front_end/bootstrap.min.js')}}"></script>
+        <script src="{{asset('js/front_end/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('js/front_end/jquery.stellar.min.js')}}"></script>
+        <script src="{{asset('js/front_end/main.js')}}"></script>
 
     </body>
 </html>

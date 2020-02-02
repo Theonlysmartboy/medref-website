@@ -6,7 +6,7 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+						<a class="logo" href="index.html"><img src="{{asset('images/front_end/logo.png')}}" alt="logo"></a>
 					</div>
 					<!-- Logo -->
 
@@ -66,7 +66,7 @@
 			<!-- home item -->
 			<div class="home-item">
 				<!-- section background -->
-				<div class="section-bg" style="background-image: url(./img/background-1.jpg);"></div>
+				<div class="section-bg" style="background-image: url({{asset('images/front_end/background-1.jpg')}});"></div>
 				<!-- /section background -->
 
 				<!-- home content -->
@@ -90,7 +90,7 @@
 			<!-- home item -->
 			<div class="home-item">
 				<!-- Background Image -->
-				<div class="section-bg" style="background-image: url(./img/background-2.jpg);"></div>
+				<div class="section-bg" style="background-image: url({{asset('images/front_end/background-2.jpg')}});"></div>
 				<!-- /Background Image -->
 
 				<!-- home content -->

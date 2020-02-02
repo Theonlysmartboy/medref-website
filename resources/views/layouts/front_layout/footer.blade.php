@@ -8,7 +8,7 @@
 				<div class="col-md-4">
 					<div class="footer">
 						<div class="footer-logo">
-							<a class="logo" href="#"><img src="./img/logo.png" alt=""></a>
+							<a class="logo" href="#"><img src="{{asset('images/front_end/logo.png')}}" alt=""></a>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						<ul class="footer-contact">
@@ -25,12 +25,12 @@
 					<div class="footer">
 						<h3 class="footer-title">Galery</h3>
 						<ul class="footer-galery">
-							<li><a href="#"><img src="./img/galery-1.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./img/galery-2.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./img/galery-3.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./img/galery-4.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./img/galery-5.jpg" alt=""></a></li>
-							<li><a href="#"><img src="./img/galery-6.jpg" alt=""></a></li>
+							<li><a href="#"><img src="{{asset('images/front_end/galery-1.jpg')}}" alt=""></a></li>
+							<li><a href="#"><img src="{{asset('images/front_end/galery-2.jpg')}}" alt=""></a></li>
+							<li><a href="#"><img src="{{asset('images/front_end/galery-3.jpg')}}" alt=""></a></li>
+							<li><a href="#"><img src="{{asset('images/front_end/galery-4.jpg')}}" alt=""></a></li>
+							<li><a href="#"><img src="{{asset('images/front_end/galery-5.jpg')}}" alt=""></a></li>
+							<li><a href="#"><img src="{{asset('images/front_end/galery-6.jpg')}}" alt=""></a></li>
 						</ul>
 					</div>
 				</div>
