@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@index')->name('index');
+Route::get('/about', 'PagesController@about')->name('about_us');
+Route::get('/services', 'PagesController@service')->name('what_we_do');
+Route::get('/testimonies','PagesController@testimony')->name('what_people_say');
+Route::get('/contact','PagesController@showContactForm')->name('contact_us');
 
 Auth::routes();
 
