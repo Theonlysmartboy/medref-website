@@ -18,7 +18,8 @@ class PagesController extends Controller
         $title = "Medref | What We Do";
         return view('service')->with(compact('title'));
     }
-     public function blog(){
+     public function blog(Request $request, $id = null){
+         
         $title = "Medref | Our Blogs ";
         return view('single_blog')->with(compact('title'));
     }
@@ -27,6 +28,14 @@ class PagesController extends Controller
         return view('contact')->with(compact('title'));
     }
     public function createPage(Request $request) {
+        if($request ){
+            
+        }
+        $title = "Medref | Page Management";
+        return view('pages.create')->with(compact('title'));
+        
+    }
+    public function updatePage(Request $request) {
         if($request ){
             
         }

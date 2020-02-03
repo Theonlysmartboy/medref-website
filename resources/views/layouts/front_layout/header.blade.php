@@ -6,7 +6,7 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="index.html"><img src="{{asset('images/front_end/logo.png')}}" alt="logo"></a>
+						<a class="logo" href="{{route('index')}}"><img src="{{asset('images/front_end/logo.png')}}" alt="logo"></a>
 					</div>
 					<!-- Logo -->
 
@@ -36,8 +36,8 @@
 
 				<!-- Nav menu -->
 				<ul class="navbar-menu nav navbar-nav navbar-right">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">About</a></li>
+					<li><a href="{{route('index')}}">Home</a></li>
+					<li><a href="{{route('')">About</a></li>
 					<li class="has-dropdown"><a href="#">Causes</a>
 						<ul class="dropdown">
 							<li><a href="single-cause.html">Single Cause</a></li>
