@@ -10,11 +10,11 @@
 				<div class="col-md-5">
 					<div class="section-title">
 						<h2 class="title">About Us</h2>
-						<p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="sub-title">We are passionate about the community and their health.</p>
 					</div>
 					<div class="about-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<a href="#" class="primary-button">Read More</a>
+						<p>We work tirelessly to ensure that the health of teenage girls, mothers and the community as a whole is well taken care of .</p>
+						<a href="{{route('about')}}" class="primary-button">Read More</a>
 					</div>
 				</div>
 				<!-- /about content -->

@@ -10,11 +10,11 @@
 						<div class="footer-logo">
 							<a class="logo" href="#"><img src="{{asset('images/front_end/logo.png')}}" alt=""></a>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Medical and Eco-Development Research Foundatio(MedRef)</p>
 						<ul class="footer-contact">
-							<li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
-							<li><i class="fa fa-phone"></i> 607-279-9246</li>
-							<li><i class="fa fa-envelope"></i> <a href="#">Charity@email.com</a></li>
+							<li><i class="fa fa-map-marker"></i>P. O Box 133-40100 GPO Kisumu, Kenya</li>
+							<li><i class="fa fa-phone"></i>+254 799 996 829, +254 784 996 829</li>
+							<li><i class="fa fa-envelope"></i> <a href="mailto: medref2019@gmail.com">medref2019@gmail.com</a></li>
 						</ul>
 					</div>
 				</div>
@@ -62,19 +62,19 @@
 			<div id="footer-bottom" class="row">
 				<div class="col-md-6 col-md-push-6">
 					<ul class="footer-nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Causes</a></li>
-						<li><a href="#">Events</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="{{route('index')}}">Home</a></li>
+						<li><a href="{{route('about')}}">About</a></li>
+						<li><a href="{{route('project')}}">What we do</a></li>
+						<li><a href="{{route('event')}}">Events</a></li>
+						<li><a href="{{route('blog')}}">Blog</a></li>
+						<li><a href="{{route('contact')}}">Contact</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-6 col-md-pull-6">
 					<div class="footer-copyright">
 						<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is developped with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://otemainc.com" target="_blank">Otema Technologies</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Website developed by <a href="https://otemainc.com" target="_blank">Otema Technologies</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
 					</div>
 				</div>

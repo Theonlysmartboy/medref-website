@@ -18,10 +18,20 @@ class PagesController extends Controller
         $title = "Medref | What We Do";
         return view('service')->with(compact('title'));
     }
-     public function blog(Request $request, $id = null){
+     public function blog(){
          
         $title = "Medref | Our Blogs ";
-        return view('single_blog')->with(compact('title'));
+        return view('blog.blog')->with(compact('title'));
+    }
+    public function event(){
+         
+        $title = "Medref | Our Blogs ";
+        return view('events.event')->with(compact('title'));
+    }
+     public function project(){
+         
+        $title = "Medref | Our Projects ";
+        return view('projects.project')->with(compact('title'));
     }
      public function showContactForm(){
         $title = "Medref | Contact Us";
@@ -47,4 +57,5 @@ class PagesController extends Controller
          $title = "Medref | Member Registration";
         return view('members.create')->with(compact('title'));
     }
+    
 }

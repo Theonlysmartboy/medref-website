@@ -14,8 +14,9 @@
 Route::get('/', 'PagesController@index')->name('index');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/services', 'PagesController@service')->name('service');
-Route::get('/testimonies','PagesController@blog')->name('blog');
+Route::get('/blogs','PagesController@blog')->name('blog');
 Route::get('/events','PagesController@event')->name('event');
+Route::get('/projects','PagesController@project')->name('project');
 Route::get('/contact','PagesController@showContactForm')->name('contact');
 Route::get('/register/self','PagesController@showRegisterForm')->name('register_self');
 Route::post('/register/self','UsersController@submit')->name('register_self_submit');
