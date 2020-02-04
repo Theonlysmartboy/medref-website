@@ -1,4 +1,4 @@
-@extends('layouts.front_layout.design')
+@extends('layouts.front_layout.landing_page_design')
 @section('content')	
 <!-- ABOUT -->
 	<div id="about" class="section">
@@ -9,7 +9,7 @@
 				<!-- about content -->
 				<div class="col-md-5">
 					<div class="section-title">
-						<h2 class="title">Welcome to Charity</h2>
+						<h2 class="title">About Us</h2>
 						<p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 					<div class="about-content">
