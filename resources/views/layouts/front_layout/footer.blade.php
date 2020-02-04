@@ -40,7 +40,7 @@
 				<div class="col-md-4">
 					<div class="footer">
 						<h3 class="footer-title">Newsletter</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						<p>Please subscribe to our newsletter to get timely updates about our events.</p>
 						<form class="footer-newsletter">
 							<input class="input" type="email" placeholder="Enter your email">
 							<button class="primary-button">Subscribe</button>
