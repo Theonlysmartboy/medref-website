@@ -43,4 +43,8 @@ class PagesController extends Controller
         return view('pages.create')->with(compact('title'));
         
     }
+    public function showRegisterForm() {
+         $title = "Medref | Member Registration";
+        return view('members.create')->with(compact('title'));
+    }
 }
