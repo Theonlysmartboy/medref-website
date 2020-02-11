@@ -10,7 +10,7 @@
 						<div class="footer-logo">
 							<a class="logo" href="#"><img src="{{asset('images/front_end/logo.png')}}" alt=""></a>
 						</div>
-						<p>Medical and Eco-Development Research Foundatio(MedRef)</p>
+						<p>Medical and Eco-Development Research Foundation(MedRef)</p>
 						<ul class="footer-contact">
 							<li><i class="fa fa-map-marker"></i>P. O Box 133-40100 GPO Kisumu, Kenya</li>
 							<li><i class="fa fa-phone"></i>+254 799 996 829, +254 784 996 829</li>
